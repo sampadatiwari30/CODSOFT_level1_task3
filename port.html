@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <div id="header">
+       <div class="container"> 
+          <nav>
+            <h1>Sampada Tiwari</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Serviecs</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <p>Web developer</p>
+            <h1>Hi, I'm <span>Sampada</span><br>Tiwari From India</Fieldset></h1>
+          </div>
+       </div>
+    </div>
+    <!--------------------about--------------->
+    <div id="about">
+         <div class="container">
+             <div class="row">
+            <div class="about-col-1">
+                <img src="gro.png.jpg">
+            </div>
+             <div class="about-col-2">
+                 <h1 class="sub-title">About Me</h1>
+                 <p>  My name is sampada tiwari, and i hail from madhya pradesh.   <br>   I did my schooling from CBSE board and doing graduation
+                from Banasthali Vidyapith, Rajasthan.   <br>   I am passionate about implementing and launching new projects and also strong in design.looking to start
+            the career as an entry-level web developer with a reputed firm driven by technology.   <br>    I believe my skills include probelm solving, and time management.
+            My weakness is trusting people easily.   <br>   My hobbies include walking, playing badmintion and cooking. <br>  My long-term goal is to be a successfull
+        web developer and work for comapny by all means possible.   <br>  That'll be all. <br>  Thanks </p>
+          
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-content" id="skills">
+              <ul>
+                <li><span>Web development</span><br>Designing web interfaces</li>
+                <li><span>Web development</span><br>Designing web interfaces</li>
+                <li><span>Web development</span><br>Designing web interfaces</li>
+              </ul>
+            </div>
+            <div class="tab-content" id="experience">
+              <ul>
+                <li><span>2023 - current</span><br>web development</li>
+                <li><span>2023 - current</span><br>web development</li>
+                <li><span>2023 - current</span><br>web development</li>
+              </ul>
+            </div>
+            <div class="tab-content" id="education">
+              <ul>
+                <li><span>2021</span><br>web development - througt online youtube tutorial</li>
+                <li><span>2021</span><br>web development - througt online youtube tutorial</li>
+                <li><span>2021</span><br>web development - througt online youtube tutorial</li>
+              </ul>
+            </div>
+             </div>
+             </div>
+         </div>
+    </div>
+    <!-----------services--------------->
+    <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My services</h1>
+          <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Modi tenetur dolores quis assumenda aut autem nisi illo nemo voluptatem 
+                   ut quae cupiditate beatae inventore magnam, optio id atque quidem? Eum.</p>
+                   <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>Web design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Modi tenetur dolores quis assumenda aut autem nisi illo nemo voluptatem 
+                   ut quae cupiditate beatae inventore magnam, optio id atque quidem? Eum.</p>
+                   <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Web design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Modi tenetur dolores quis assumenda aut autem nisi illo nemo voluptatem 
+                   ut quae cupiditate beatae inventore magnam, optio id atque quidem? Eum.</p>
+                   <a href="#">Learn more</a>
+              </div>
+          </div>
+        </div>
+    </div>
+    <!-------------------portfolio------------>
+    <div id="portfolio">
+          <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                 <div class="work">
+                    <img src="pet.png">
+                    <div class="layer">
+               <h3>Pet adoption website</h3>
+               <p>This website is making for a pet adoption, if you have adopt a Pet
+                then contact on website.</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                 </div>
+                 <div class="work">
+                  <img src="task.png">
+                  <div class="layer">
+                    <h3>Task list</h3>
+                    <p>If you didn't remember anything then you can note your work 
+                      and complete the task easily.</p>
+                      <a href="#"><i class="fa-solid fa-link"></i></a>
+                         </div>
+               </div>
+               <div class="work">
+                <img src="netiflix.png">
+                <div class="layer">
+                  <h3>Netiflix clone</h3>
+                  <p>This website is making to see your favourtie movies, cartoon. 
+                    it is just a netiflix clone page</p>
+                  <a href="#"><i class="fa-solid fa-link"></i></a>
+                       </div>
+             </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+          </div>
+    </div>
+
+
+    <!----------contact----------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa-sharp fa-solid fa-paper-plane"></i>sampadatiwari54@gmail.com</p>
+               <p><i class="fa-solid fa-phone"></i>+91 1234567890</p>
+               <div class="social-icons">
+                  <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-github"></i></a>
+
+               </div>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="name" placeholder="your name" required>
+                <input type="email" name="email" placeholder=" your email" required>
+                <textarea name="Message" rows="6"></textarea>
+                <button type="submit">Submit</button>
+              </form>
+              <span id="msg">hello</span>
+            </div>
+            <a href="Resume-sampada-tiwari (3).pdf" download class="btn btn2">Download CV</a>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="copyright">
+          <p>Copyright &copy; Sampada.</p>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+var tabcontent= document.getElementsByClassName("tab-content");
+
+function opentab(tabname){
+    for(tablink of tabiinks){
+        tablinks.classList.remove("active-link");
+    }
+    for(tabcontent of tablinks){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.remove("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwLsvac2tcaf-jouHGxie8ZsCprEsRNNwQ9dDzvR5L1xH6yYqc4Og98RhwSqiqUyFssQQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementsById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+              msg.innerHTML = "Message sent successfully"
+              setTimeout(function(){
+                 msg.innerHTML = ""
+              }, 5000)
+              form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body> 
+</html>
